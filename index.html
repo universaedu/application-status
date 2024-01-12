@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>متابعة طلب التسجيل</title>
+    <link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  
+    <div class="container">
+ <img src="https://static.wixstatic.com/media/6c4075_559118e57edf4dce87308463e821e02a~mv2.png/v1/crop/x_0,y_184,w_500,h_120/fill/w_319,h_76,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/%D8%A7%D9%84%D9%84%D9%88%D8%AC%D9%88%20%D9%85%D9%81%D8%B1%D8%BA.png" alt="universa education Logo" style="max-width: 70%; height: auto; margin-bottom: 50px;">
+        <h1>معرفة حالة طلبات التسجيل</h1>
+        <form onsubmit="redirectToStudentFile(); return false;">
+            <label for="studentId">أدخل رقم الطالب الذي حصلت عليه عند تسجيلك لمعرفة الجامعات التي تم تسجيلك عليها</label>
+            <input type="number" id="studentId" name="studentId" required>
+
+            <button class="signupBtn">
+استعلام عن طلبي
+  <span class="arrow">
+     <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 320 512" fill="rgb(183, 128, 255)"><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"></path></svg>
+  </span>
+</button>
+
+
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
