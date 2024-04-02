@@ -4,7 +4,7 @@ function redirectToStudentFile() {
 
     // اذا كان رقم الطالب مطابقا لأحد أرقام الملفات، قم بتوجيهه
     var studentFiles = {
-        '20240001': 'https://1drv.ms/x/s!ArCnzAJAbxt-gQE4A-DusUdZxOFK?e=gnGIVA',
+        '20240001': 'https://ana.hsoub.com/dashboard/00ab184c-5687-4da7-b177-d580c81f8e7d',
         '20240002': 'https://1drv.ms/b/s!ArCnzAJAbxt-eghpykfMj9-uQQ8?e=CQMoRw',
         '20240003': 'https://1drv.ms/b/s!ArCnzAJAbxt-fLuYNS0TAgGWdZk?e=yW2HFv'
     };
